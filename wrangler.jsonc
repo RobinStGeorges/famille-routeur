@@ -1,0 +1,15 @@
+{
+  "name": "famille-routeur",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-11-01",
+  "routes": [
+    { "pattern": "lepetitperchoir.fr", "custom_domain": true },
+    { "pattern": "www.lepetitperchoir.fr", "custom_domain": true }
+  ],
+  "vars": {
+    "ACCOUNT_SUBDOMAIN": "robin-sgeorges",
+    "PORTAL_NAME": "famille-portail",
+    "APP_PREFIX": "famille-",
+    "PUBLIC_HOST": "lepetitperchoir.fr"
+  }
+}
